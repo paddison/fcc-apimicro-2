@@ -28,7 +28,7 @@ app.get("/api/whoami", function (req, res) {
   console.log(ip, sys, lan);
   
   res.json({
-    ipadress: ip,
+    ipaddress: ip,
     language: lan,
     software: sys
   });
